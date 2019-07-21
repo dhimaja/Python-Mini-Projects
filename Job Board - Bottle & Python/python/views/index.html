@@ -1,0 +1,38 @@
+
+% rebase('base.html')
+      <div>
+          <ul>
+              <li>
+            <a href="/static/about.html">About</a>
+            <a href="/static/about.html">Home</a>
+            <form action="/login" method="post" id="loginform">
+                <div id="doLogin">
+           <input name="nick" type="text" placeholder="nick" />
+           <input name="password" type="password" placeholder="password" />
+            <input value="Login" type="submit" />
+                </div>
+            </form>
+              </li>
+          </ul>
+      </div>
+
+
+    % for jobpost in positions:
+    <div>
+        <table>
+            <th>Card Title: {{jobpost[3]}}</th>
+            <th>Company: {{jobpost[5]}}</th>
+    </div>
+    <div>
+        <th>User: {{jobpost[2]}}</th>
+        <th>Timestamp: {{jobpost[1]}}</th>
+    </div>
+    <p><th>description: {{!jobpost[6][:100]}} <a href="/positions/{{jobpost[0]}}">Read More</a></th></p>
+
+        </table>
+% end
+</div>
+
+
+
+

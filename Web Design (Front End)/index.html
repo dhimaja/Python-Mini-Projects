@@ -1,0 +1,261 @@
+<html>
+<head lang="en">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+    : : -webkit-scrollbar{
+          width: 10px;
+    }
+
+    : : -webkit-scrollbar -track{
+          box-shadow: insert 2 2 10px grey;
+          border-radius: 10px;
+    }
+
+     : : -webkit-scrollbar -thumb{
+          background: red;
+          border-radius: 10px;
+    }
+
+     : : -webkit-scrollbar-thumb:hover {
+          background: #b30000;
+    }
+
+   body {
+         background-color: #f5f5dc;
+
+         color: #ff0000;
+
+         font-family: sans-serif;
+
+
+
+    }
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+
+
+
+.job {
+
+        width: 500px;
+
+        margin: auto;
+        padding-top: 0px;
+
+
+
+
+  }
+
+.jobtitle{
+
+          text-decoration: underline;
+
+          color: #000000;
+
+          font-weight: bold;
+           padding-top: 10px;
+
+    }
+
+    .company {
+        color: #778899;
+    }
+
+    .description {
+        color: #778899;
+        text-align: left;
+        font-size: 15px;
+        padding-right: 10px;
+        width: 150%;
+
+    }
+
+    .location {
+        color: #A9A9A9;
+        font-size : 15px;
+    }
+
+   .bottom-bar {
+    position:relative;
+    text-align:center;
+    font-size:.8em;
+    text-transform:uppercase;
+    background:#000;
+    padding:15px 0;
+    margin-bottom: 0px;
+  }
+
+   a {
+    color:#0000ff;
+    text-decoration:none;
+    -webkit-transition: color .5s, background .5s;
+    transition: color .5s, background .5s;
+    &:hover {
+      color:#65c2ed;
+    }
+  }
+
+  .column {
+            float: left;
+            width: 25%;
+             padding-top: 40px;
+             color: #000000;
+}
+
+p{
+  color : red;
+  font-size: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+img{
+  padding-right:500px;
+  width: 250px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+
+ }
+h1{
+    text-align: center;
+    margin-top:0px;
+    padding-bottom:0px;
+    color: #000000;
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- these are sample job postings to use in your design
+     use as many as you wish to best illustrate your
+     design or make your own.  You can modify the structure of the
+     HTML to add more fields or lay out the text differently.
+
+     Note that you need to add other elements to this page - branding, navigation, links, advertising...
+     -->
+
+<ul>
+  <li><a href="#home">Full Time Jobs</a></li>
+  <li><a href="#news">Part Time Jobs</a></li>
+  <li><a href="#contact">Jobs On Contract</a></li>
+  <li style="float:right"><a class="active" href="#uploadyourresume">Upload Your Resume</a></li>
+</ul>
+
+
+<div class="header">
+     <img src="http://uselogodesigns.com/wp-content/themes/uselogodesigns/timthumb.php?src=http://uselogodesigns.com/wp-content/uploads/2011/04/jobber1_preview.jpg&h=339&w=667&zc=1" alt="Flowers in Chania" height="70px">
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Recommended Jobs</h2>
+      <p> <a href="#">Internship For International Stu</a>...8 new</p>
+      <p> <a href="#">Project Manager Prince2</a>...10 new</p>
+      <p> <a href="#">Entry LevelIT-Syndey NSW</a>...20 new</p>
+      <p> <a href="#">Part Time-Blacktown NSW</a>...415 new</p>
+      <p> <a href="#">Work From Home-Sydney NSW</a>...200 new</p>
+      <p> <a href="#">Student PartTime - Macquarie University NSW</a>...65 new</p>
+      <p> <a href="#">Waitress-Macquarie University NSW</a>...10 new</p>
+      <p> <a href="#">Restaurant-Macquarie University NSW</a>...150 new</p>
+      <p> <a href="#">Part Time Developer - Sydney NSW</a>...30 new</p>
+      <p> <a href="#">Full STack Developer- Syndey NSW</a>...15 new</p>
+  </div>
+
+
+<div class="job">
+     <h1>Welcome To Job Board</h1>
+    <div class="jobtitle">Junior Software Engineer</div>
+    <div class="company">MedicalMaster</div>
+    <div class="location">Sydney NSW</div>
+    <div class="description">
+        You are passionate about technology and writing high quality software. Delivering
+        world class software that delights our customers and exceeds the
+        expectations of...<div class="read-more"><a href="#" >Read More</a></div>
+    </div>
+</div>
+
+<div class="job">
+    <div class="jobtitle">Junior Software Engineer</div>
+    <div class="company">SXY Software</div>
+    <div class="location">Sydney NSW</div>
+    <div class="description">
+        SXY Software is a leading provider of innovative software solutions for the
+        Global Pasta industry. We are currently seeking a Junior Software Engineer to...<div class="read-more"><a href="#" >Read More</a></div>
+    </div>
+</div>
+
+<div class="job">
+    <div class="jobtitle">Junior Software Engineer - Flight Management</div>
+    <div class="company">Ansett Airlines</div>
+    <div class="location">Pyrmont NSW</div>
+    <div class="description">
+        Coordinating product development between several impacted developers across various
+        Ansett sites. Experience as software developer in C++ in a Linux...<div class="read-more"><a href="#" >Read More</a></div>
+    </div>
+</div>
+
+
+<div class="job">
+    <div class="jobtitle">Junior Full Stack Developer</div>
+    <div class="company">Power People</div>
+    <div class="location">Macquarie Park NSW</div>
+    <div class="description">
+        As a Junior Full Stack Developer, you will report into the Lead Developer in
+        an Agile team and contribute to the development of world leading...<div class="read-more"><a href="#" >Read More</a></div>
+    </div>
+</div>
+
+
+<div class="job">
+    <div class="jobtitle">Graduate - Junior Database SQL/BI Developer | BI Team Finance</div>
+    <div class="company">9G Futures</div>
+
+
+    <div class="location">Elsewood Park NSW</div>
+    <div class="description">
+        We are looking for a talented Grad to Junior level Database SQL Developer to
+        work with the Business Intelligence IT team developing greenfield and brownfield
+        data warehouse and in-house reporting solution to meet business requirements.<div class="read-more"><a href="#" >Read More</a></div>
+    </div>
+</div>
+<p>Jobs 1 to 10 of 50</p>
+<footer>
+<div class="bottom-bar">
+      All Rights Reserved © 2018 | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+</div>
+</footer>
+
+</body>
+</html>

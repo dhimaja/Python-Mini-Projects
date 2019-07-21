@@ -1,0 +1,22 @@
+% rebase('base.html')
+
+<div>
+     <ul>
+        <li>
+            <a href="/static/about.html">About</a>
+            <form action="/login" method="post" id="loginform">
+                <div id="doLogin">
+                    <input name="nick" type="text" placeholder="nick" />
+                    <input name="password" type="password" placeholder="password" />
+                    <input value="Login" type="submit" />
+                </div>
+
+</form>
+        </li>
+    </ul>
+</div>
+
+<div>
+    <h1><b>Login Error</b></h1>
+ <label id="lbl_loginFailed" >Login Failed, please try again.</label>
+</div>
